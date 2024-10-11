@@ -10,13 +10,11 @@ class Program
         var nordicZoo = new csNordicZoo();
         var birdZoo = new csBirdZoo();
 
-        Console.WriteLine(africanZoo);
-        Console.WriteLine();
+        List<csZoo> list = [africanZoo, nordicZoo, birdZoo];
 
-        Console.WriteLine(nordicZoo);
-        Console.WriteLine();
-
-        Console.WriteLine(birdZoo);
-        Console.WriteLine();
+        foreach (csZoo zoo in list)
+        {
+            Console.WriteLine(zoo);
+        }
     }
 }
