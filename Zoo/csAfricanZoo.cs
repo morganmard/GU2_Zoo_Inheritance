@@ -4,7 +4,7 @@ using Seido.Utilities.SeedGenerator;
 
 public class csAfricanZoo : csZoo
 {
-        public enum enAnimalKindAfrican { Aligator = 4, Elephant, Lion, Monkey }
+        public enum enAnimalKindAfrican { Crocodile = 4, Elephant, Lion, Monkey }
 
         private int amountMeat { get; init; }
 

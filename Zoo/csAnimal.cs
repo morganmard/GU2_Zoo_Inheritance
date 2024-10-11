@@ -2,7 +2,7 @@
 
 namespace GU1_Zoo;
 
-public enum enAnimalKind { Moose, Wolf, Deer, Fox, Aligator, Elephant, Lion, Monkey, Eagle, Hawk, Owl, Parrot }
+public enum enAnimalKind { Moose, Wolf, Deer, Fox, Crocodile, Elephant, Lion, Monkey, Eagle, Hawk, Owl, Parrot }
 public enum enAnimalMood { Happy, Sleepy, Sad, Hungry, Lazy, Quick, Slow }
 
 public class csAnimal
