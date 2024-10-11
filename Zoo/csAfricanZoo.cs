@@ -22,7 +22,7 @@ public class csAfricanZoo : csZoo
 
                                 switch ((enAnimalKindAfrican)ListOfAnimal[^1].Kind)
                                 {
-                                        case enAnimalKindAfrican.Aligator:
+                                        case enAnimalKindAfrican.Crocodile:
                                                 amountMeat += 10;
                                                 break;
                                         case enAnimalKindAfrican.Lion:
